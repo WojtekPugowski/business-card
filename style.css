@@ -25,6 +25,8 @@ body {
 }
 
 .person {
+    display: flex;
+    align-items: flex-start;
 }
 
 .person__header {
@@ -45,6 +47,12 @@ body {
   font-size: 36pt;
   margin: 0;
   font-weight: normal;
+}
+
+.person__image {
+    margin-right: 32px;
+    width: 148px;
+    border-radius: 50%;
 }
 
 .person__position {
