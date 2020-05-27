@@ -21,4 +21,36 @@ body {
   border-radius: 16px;
   width: 624px;
   margin: 16px;
+  padding: 32px;
+}
+
+.person {
+}
+
+.person_description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.person__name {
+  font-size: 36pt;
+  margin: 0;
+  font-weight: normal;
+}
+
+.person__position {
+  font-size: 18px;
+  color: #545454;
+  font-style: italic;
+  margin: 0;
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
+}
+
+.person__link {
+  text-decoration: none;
+  color: #e20613;
 }
