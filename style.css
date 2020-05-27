@@ -27,9 +27,18 @@ body {
 .person {
 }
 
+.person__header {
+    margin-bottom: 24px;
+}
+
 .person_description {
   font-size: 16px;
   line-height: 22px;
+  margin: 0;
+}
+
+.person_description--with-margin {
+    margin-bottom: 22px;
 }
 
 .person__name {
